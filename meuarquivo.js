@@ -47,10 +47,10 @@ let currTrack = document.createElement('audio');
 
 const trackList = [
   {
-    name: "Ordinary",
-    artist: "Alex Warren",
-    image: "imgordinery.jpg",
-    path: "ordinary.mp3"
+    name: "parabéns",
+    artist: "xande",
+    image: "images/som.jpg",
+    path: "parabens.mp3"
   },
   {
     name: "Song Two",
