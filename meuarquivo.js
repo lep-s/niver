@@ -51,7 +51,7 @@ const trackList = [
     artist: "xande",
     image: "images/som.jpg",
     path: "parabens.mp3"
-  },
+},
   {
     name: "Song Two",
     artist: "Artist B",
