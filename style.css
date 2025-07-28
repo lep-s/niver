@@ -136,7 +136,7 @@ body {
 .balao {
       position: absolute;
       width: 50px;
-      animation: subir 30s linear infinite;
+      animation: subir 25s linear infinite;
     }
 
     @keyframes subir {
