@@ -30,13 +30,13 @@ body {
   overflow-y: auto;
   background-color: #f8d4e3;
   padding-bottom: 100px;
-  overflow-x: hidden;
+  
   
   
 }
-body {
-  overflow-x: hidden;
-}
+
+ 
+
   
   
 .container {
@@ -135,6 +135,8 @@ body {
 
 .balao {
       position: absolute;
+      overflow: hidden;
+      
       width: 50px;
       animation: subir 25s linear infinite;
     }
@@ -177,14 +179,14 @@ body {
       max-width: 100%;
       position: relative;
       top: 20px;
-      overflow: hidden;
+     
     }
      .centro {
       width: 200px;
       position: relative;
       top: 20px;
       left: 6px;
-      overflow: hidden;
+      
     }
     
     .lado{
@@ -195,7 +197,7 @@ body {
       height: auto;
       top: 20px;
       transform: rotate(-15deg);
-      overflow: hidden;
+     
     }
 
     .conteudo-extra {
@@ -226,7 +228,7 @@ body {
       transform: scale(0.8);
       transform-origin: center;
       position: relative;
-      overflow: hidden;
+    
     }
 
     .conteiner > .envelope-wrapper{
@@ -345,7 +347,7 @@ body {
     }
 
     #primeira {
-      width: 115px;
+      width: 11px;
       position: absolute;
       transform: translate(-205px, -420px) rotate(-12deg);
       transform-origin: center;
