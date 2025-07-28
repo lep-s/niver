@@ -53,10 +53,10 @@ const trackList = [
     path: "parabens.mp3"
 },
   {
-    name: "Song Two",
-    artist: "Artist B",
-    image: "cover2.jpg",
-    path: "song2.mp3"
+    name: "",
+    artist: "",
+    image: "",
+    path: ""
   },
   // adicione mais músicas aqui
 ];
