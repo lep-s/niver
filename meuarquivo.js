@@ -12,7 +12,7 @@ const imagens = [
       balao.classList.add('balao');
       balao.style.left = Math.random() * 100 + 'vw';
       balao.style.animationDuration = (10 + Math.random() * 8) + 's'; // velocidade variável
-      document.body.appendChild(balao);
+      document.querySelector('.baloes-container').appendChild(balao);
 
       // remover depois de subir
       setTimeout(() => {
@@ -119,7 +119,7 @@ function seekTo() {
 }
 
 function setVolume() {
-  currTrack.volumi = volumiSlider.value / 100;
+  currTrack.volume = volumeSlider.value / 100;
 }
 
 function seekUpdate() {
