@@ -202,11 +202,11 @@ body {
 
     .conteudo-extra {
       text-align: center;
-      margin-top: 1000px;
+      margin-top: 1000px 0;
     }
     .decoracao {
       width: 200px;
-      margin: 20px;
+      margin: 20px 0;
     }
 
     :root{
@@ -379,7 +379,7 @@ body {
   height: 400px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
-  margin-top: 60px;
+  margin-top: 60px 0;
 }
 
 .track-art {
@@ -407,7 +407,7 @@ body {
 
 
 .seek-bar, .volume-bar {
-  margin-top: 15px;
+  margin-top: 15px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
