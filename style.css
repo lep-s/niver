@@ -1,20 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 @media (max-width: 600px){
-  body {
+  hyml, body {
   background-color: white;
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
-  
-  
   overflow-y: auto;
   background-color: #f8d4e3;
   padding-bottom: 40%;
 }
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 h1 {
@@ -38,7 +37,7 @@ h1 {
   
   
 .container {
-  width: 360%;
+  width: 100%;
   background-color: #eb0d0d;
  
   transform: translate(-50%, -50%);
@@ -400,7 +399,7 @@ h1 {
   }
 
 .linha-base{
-      width: 100%;
+      
       max-width: 100%;
       height: 5.1px;
       background-color: #8B4513;
@@ -422,7 +421,7 @@ h1 {
   padding: 20px;
   border-radius: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
