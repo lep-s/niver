@@ -241,7 +241,7 @@ h1 {
       align-items: center;
       padding: 30px 0;
       place-items: center;
-      padding-top: 80vh;
+      padding-top: 90vh;
       transform: scale(0.9);
       transform-origin: center;
       position: relative;
@@ -372,7 +372,7 @@ h1 {
 
     
     #primeira {
-      max-width: 110px;
+      max-width: 100px;
       width: 100%;
       
       top: 40%;
@@ -387,7 +387,7 @@ h1 {
     }
     #segunda {
       width: 11vh;
-      top: 35%;
+      top: 40%;
       padding-top:34%;
       left: 60%;
       position: absolute;
@@ -402,15 +402,15 @@ h1 {
   }
 
 .linha-base{
-      width: 100%;
-      max-width: 700px;
+      width: 100vw;
+      max-width: none;
       
-      height: 5.2px;
+      height: 5.4px;
       background-color: #8B4513;
-      margin: 0;
+      margin: auto;
       border-radius: 4px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      margin: auto 20px a;
+      
       position: absolute;
       z-index: 2;
     
