@@ -372,11 +372,11 @@ h1 {
 
     @media (min-width: 300px) {
     #primeira {
-      width: 13%;
+      width: 15%;
       
       top: 40%;
       padding-top: 20%;
-      left: 15%;
+      left: 16%;
       transform: translateY(-50%);
       position: absolute;
       transform-origin: center;
@@ -387,7 +387,7 @@ h1 {
     #segunda {
       width: 11vh;
       top: 35%;
-      padding-top:30%;
+      padding-top:34%;
       left: 60%;
       position: absolute;
       transform: translateY(-50%);
@@ -402,7 +402,7 @@ h1 {
 
 .linha-base{
       width: 100%;
-      max-width: 560px;
+      max-width: 530px;
       
       height: 5.2px;
       background-color: #8B4513;
