@@ -19,7 +19,7 @@
 
 h1 {
   
-  font-size: 3.8em;
+  font-size: 4em;
   color: #ff69b4;
   text-shadow: 2px 2px #ffb6c1;
   text-align: center;
@@ -71,8 +71,8 @@ h1 {
   background-repeat: repeat;
   background-size: 100% 100%, 60px 100px;
   background-position: 28px 0;
-  background-image: linear-gradient(transparent 50px, #FFFACD 50px,  60px, transparent 60px),
-  radial-gradient(circle at 30px 5px, #6c3c0c 30px, peru 31px); color: peru;
+  background-image: linear-gradient(transparent 50px, #e3a953 50px,  #e3a953 60px, transparent 60px),
+  radial-gradient(circle at 30px 5px, #713e16 30px, #eac284 31px);
 }
 .middle-layer {
   transform: scale(0.85);
@@ -199,7 +199,7 @@ h1 {
      
     }
      .centro {
-      width: 50%;
+      width: 60%;
       max-width: 50%;
       height: auto;
       position: relative;
@@ -241,7 +241,7 @@ h1 {
       align-items: center;
       padding: 30px 0;
       place-items: center;
-      padding-top: 80vh;
+      padding-top: 160vh;
       transform: scale(0.9);
       transform-origin: center;
       position: relative;
@@ -304,7 +304,7 @@ h1 {
       font-size: 9.5px;
       color: var(--txt-color);
       text-align: justify;
-      line-height: 1.1;
+      line-height: 0.9;
       padding: 2px;
       margin-top: -10px;
     }
@@ -372,9 +372,9 @@ h1 {
 
     @media (min-width: 400px) {
     #primeira {
-      width: 13vh;
+      width: 12vh;
       top: 25%;
-      padding-top: 60%;
+      padding-top: 110%;
       left: 13%;
       transform: translateY(-50%);
       position: absolute;
@@ -383,9 +383,9 @@ h1 {
       
     }
     #segunda {
-      width: 13vh;
+      width: 12vh;
       top: 40%;
-      padding-top: 10%;
+      padding-top: 60%;
       left: 60%;
       position: absolute;
       transform: translateY(-50%);
@@ -425,7 +425,7 @@ h1 {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
-  top: 30%;
+  top: 90%;
   left: 0%;
   
 }
