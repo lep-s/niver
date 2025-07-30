@@ -372,7 +372,7 @@ h1 {
 
     @media (min-width: 300px) {
     #primeira {
-      width: 11%;
+      width: 13%;
       
       top: 40%;
       padding-top: 20%;
@@ -402,7 +402,7 @@ h1 {
 
 .linha-base{
       width: 100%;
-      max-width: 550px;
+      max-width: 560px;
       
       height: 5.2px;
       background-color: #8B4513;
@@ -428,7 +428,7 @@ h1 {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
-  top: 70%;
+  top: 60%;
   left: 0%;
   
 }
