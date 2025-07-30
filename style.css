@@ -376,7 +376,7 @@ h1 {
       width: 100%;
       width: 12vh;
       top: 40%;
-      padding-top: 25%;
+      padding-top: 30%;
       left: 17%;
       
       position: absolute;
@@ -402,7 +402,7 @@ h1 {
   }
 
 .linha-base{
-      width: 550px;
+      width: 500px;
       max-width: none;
       
       height: 5.4px;
