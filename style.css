@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 500px){
   body {
   background-color: white;
   overflow: hidden;
@@ -34,19 +34,12 @@ h1 {
   margin: 0;
   box-sizing: border-box;
 }
- 
-  
-
-
- 
-
   
   
 .container {
-  width: 360px;
-  
+  width: 360%;
   background-color: #eb0d0d;
-  position: absolute;
+ 
   transform: translate(-50%, -50%);
   top: 100%;
   left: 50%;
@@ -58,8 +51,11 @@ h1 {
 .cake {
   width: 100%;
   position: absolute;
-  bottom: 5px;
-  height: 315px;
+  bottom: 0px;
+  height: auto;
+  
+  
+  
 }
 
 .bottom-layer,
@@ -69,6 +65,7 @@ h1 {
   width: 240px;
   position: relative;
   margin: auto;
+  z-index: 1;
   background-repeat: repeat;
   background-size: 100% 100%, 60px 100px;
   background-position: 28px 0;
@@ -103,19 +100,21 @@ h1 {
     #ffa89e 5px,
     #ffa89e 10px
   );
-  height: 80px;
-  width: 15px;
-  position: absolute;
+  height: 45px;
+  width: 13px;
+  position: relative;
   margin: auto;
   left: 0;
   right: 0;
-  bottom: 80px;
-  animation: rise-3 1s 4s  forwards;
+  bottom: 0px;
+  transform: translateY(245px);
+  animation: rise-3 2s 4s  forwards;
+  z-index: 1;
   
 }
 @keyframes rise-3 {
   100% {
-    bottom: 240px;
+    bottom: 202px;
   }
 }
 .candle:after {
@@ -126,9 +125,9 @@ h1 {
   background-color: #ffee54;
   border-radius: 0 50% 50% 50%;
   transform: scale(0) rotate(45deg);
-  bottom: 89px;
-  left: -0.2px;
-  animation: flame 1.5s 5s forwards;
+  bottom: 53px;
+  left: 0.3px;
+  animation: flame 1.5s 6s forwards;
 }
 @keyframes flame {
   100% {
@@ -163,14 +162,8 @@ h1 {
       bottom: 0;
       top: 0;
       left: 0;
-     
-      
-     
-      
       z-index: 10;
     }
-
-
 
 
     .imagens {
@@ -178,21 +171,21 @@ h1 {
       justify-content: center;
       align-items: flex-end;
       gap: 20px;
-      padding: 20px 15px 0;
+      padding: 0px 15px 0;
       box-sizing: border-box;
     }
    .imagens img {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
     
    }
 
     .imagens .lado-direito {
       width: 20vw;
-      max-width: 80px;
+      max-width: 200px;
       height: auto;
       
       transform: rotate(15deg);
@@ -203,8 +196,8 @@ h1 {
      
     }
      .centro {
-      width: 40vw;
-      max-width: 140px;
+      width: 40%;
+      max-width: 500%;
       height: auto;
       position: relative;
       top: 20px;
@@ -226,11 +219,7 @@ h1 {
     }
 
     
-    .decoracao {
-      width: 200px;
-      margin: 20px 0;
-    }
-
+    
     :root{
       --primary:#fff;
       --bg-color: rgb(5, 53, 61);
@@ -399,14 +388,18 @@ h1 {
     }
   }
 
-    .linha-base{
+.linha-base{
       width: 100%;
-      height: 5px;
+      height: 5.1px;
       background-color: #8B4513;
       margin: 0;
       border-radius: 4px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       margin: -50px auto 20px a;
+      position: relative;
+      z-index: 2;
+    
+      
       
     }
 
@@ -460,8 +453,6 @@ input[type="range"] {
   flex: 1;
   margin: 0 10px;
 }
-
-
 
 
 
