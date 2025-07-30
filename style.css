@@ -377,9 +377,9 @@ h1 {
       top: 40%;
       padding-top: 20%;
       left: 16%;
-      transform: translateY(-50%);
+      
       position: absolute;
-      transform-origin: center;
+     
       transform: translate(-100px, -150px) rotate(-12deg);
      
       
@@ -390,8 +390,8 @@ h1 {
       padding-top:34%;
       left: 60%;
       position: absolute;
-      transform: translateY(-50%);
-      transform-origin: center;
+     
+      
       transform: translate(100px, -150px) rotate(12deg);
     }
   }
@@ -402,7 +402,7 @@ h1 {
 
 .linha-base{
       width: 100%;
-      max-width: 530px;
+      max-width: 600px;
       
       height: 5.2px;
       background-color: #8B4513;
