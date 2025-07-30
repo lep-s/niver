@@ -385,7 +385,7 @@ h1 {
     #segunda {
       width: 11vh;
       top: -10%;
-      padding-top: 140vw;
+      padding-top: 180vw;
       left: 70%;
       position: absolute;
       transform: translateY(-50%);
@@ -399,7 +399,7 @@ h1 {
   }
 
 .linha-base{
-      width: 200vh;
+      width: 50vh;
       
       height: 5.2px;
       background-color: #8B4513;
