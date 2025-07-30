@@ -47,17 +47,29 @@ let currTrack = document.createElement('audio');
 
 const trackList = [
   {
-    name: "parabéns",
-    artist: "xande",
-    image: "images/som.jpg",
-    path: "parabens.mp3"
+    name: "home",
+    artist: "good weighbours",
+    image: "images/home3.jpg",
+    path: "home.mp3"
 },
   {
-    name: "",
-    artist: "",
-    image: "",
-    path: ""
+    name: "superpowers",
+    artist: "daniel",
+    image: "images/superpowers.jpg",
+    path: "superpowers.mp3"
   },
+  {
+    name: "recado a minha amada",
+    artist: "katinguelê",
+    image: "images/recado.jpg",
+    path: "recado.mp3"
+  },
+  {
+    name: "sweet heat lightning",
+    artist: "gregory",
+    image: "images/sweet-heat.jpg",
+    path: "sweet-heat.mp3"
+  }
   // adicione mais músicas aqui
 ];
 
