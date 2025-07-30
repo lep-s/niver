@@ -370,23 +370,25 @@ h1 {
       transition-delay: 1s;
     }
 
-    @media (min-width: 400px) {
+    @media (min-width: 300px) {
     #primeira {
-      width: 11vh;
+      width: 11%;
+      
       top: 40%;
       padding-top: 20%;
       left: 15%;
       transform: translateY(-50%);
       position: absolute;
+      transform-origin: center;
       transform: translate(-100px, -150px) rotate(-12deg);
      
       
     }
     #segunda {
       width: 11vh;
-      top: -10%;
-      padding-top: 180vw;
-      left: 70%;
+      top: 35%;
+      padding-top:30%;
+      left: 60%;
       position: absolute;
       transform: translateY(-50%);
       transform-origin: center;
@@ -399,7 +401,8 @@ h1 {
   }
 
 .linha-base{
-      width: 50vh;
+      width: 100%;
+      max-width: 550px;
       
       height: 5.2px;
       background-color: #8B4513;
