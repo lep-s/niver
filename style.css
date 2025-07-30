@@ -370,9 +370,10 @@ h1 {
       transition-delay: 1s;
     }
 
-    @media (min-width: 300px) {
+    
     #primeira {
-      width: 18%;
+      max-width: 110px;
+      width: 100%;
       
       top: 40%;
       padding-top: 20%;
@@ -394,7 +395,7 @@ h1 {
       
       transform: translate(100px, -150px) rotate(12deg);
     }
-  }
+  
 
   p {
     font-size: 10px;
@@ -402,7 +403,7 @@ h1 {
 
 .linha-base{
       width: 100%;
-      max-width: 650px;
+      max-width: 700px;
       
       height: 5.2px;
       background-color: #8B4513;
