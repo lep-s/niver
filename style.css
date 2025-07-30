@@ -198,7 +198,7 @@ h1 {
     }
      .centro {
       width: 40%;
-      max-width: 500%;
+      max-width: 50px;
       height: auto;
       position: relative;
       top: 20px;
@@ -395,8 +395,8 @@ h1 {
   }
 
 .linha-base{
-      width: 100%;
-      max-width: 600px;
+      width: 150%;
+      max-width: 700%;
       height: 5.1px;
       background-color: #8B4513;
       margin: 0;
