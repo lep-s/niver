@@ -370,15 +370,16 @@ h1 {
       transition-delay: 1s;
     }
 
-    @media (min-width: 200px) {
+    @media (min-width: 400px) {
     #primeira {
-      width: 15vh;
-      top: 40%;
+      width: 20vh;
+      top: 18%;
       padding-top: 60%;
       left: 18%;
       transform: translateY(-50%);
       position: absolute;
       transform: translate(-120px, -180px) rotate(-12deg);
+     
       
     }
     #segunda {
@@ -395,6 +396,7 @@ h1 {
 
 .linha-base{
       width: 100%;
+      max-width: 600px;
       height: 5.1px;
       background-color: #8B4513;
       margin: 0;
