@@ -1,4 +1,4 @@
-@media (max-width: 400px){
+@media (max-width: 600px){
   body {
   background-color: white;
   overflow: hidden;
@@ -239,11 +239,14 @@ h1 {
       align-items: center;
       padding: 20px 0;
       place-items: center;
-      padding-top: 80vh;
-      transform: scale(0.8);
+      padding-top: 140vh;
+      transform: scale(0.9);
       transform-origin: center;
       position: relative;
     
+    }
+    p {
+      
     }
 
     .conteiner > .envelope-wrapper{
@@ -293,7 +296,7 @@ h1 {
       transition: all 1s ease-in-out;
       padding: 20px 10px;
       box-shadow: 0 0 10px var(--shadow-color);
-      top: px;
+      
     }
     
     .letter > .text{
@@ -303,6 +306,7 @@ h1 {
       text-align: justify;
       line-height: 1.1;
       padding: 2px;
+      margin-top: -10px;
     }
 
     .heart{
@@ -368,9 +372,9 @@ h1 {
 
     @media (min-width: 200px) {
     #primeira {
-      width: 20vh;
+      width: 15vh;
       top: 40%;
-      padding-top: 7%;
+      padding-top: 60%;
       left: 18%;
       transform: translateY(-50%);
       position: absolute;
@@ -378,10 +382,10 @@ h1 {
       
     }
     #segunda {
-      width: 20vh;
+      width: 14vh;
       top: 40%;
-      padding-top: 5%;
-      left: 60%;
+      padding-top: 55%;
+      left: 65%;
       position: absolute;
       transform: translateY(-50%);
       transform-origin: center;
@@ -454,6 +458,9 @@ input[type="range"] {
   flex: 1;
   margin: 0 10px;
 }
+
+
+
 
 
 
